@@ -1,0 +1,11 @@
+﻿library_id,batch,mouse_ID,condition,gender,T.sampleID,aggr_id,ms.barcoder
+T1_M14,run1,m14,AID,M,T1,1,T1_
+T2_M17,run1,m17,m564,M,T2,2,T2_
+T3_M11,run2,m11,AID,F,T3,3,T3_
+T4_M12,run2,m12,AID,F,T4,4,T4_
+T7_M24,run2,m24,m564,M,T7,5,T7_
+T8_M13,run2,m13,m564,F,T8,6,T8_
+T11_M23,run2,m23,AID,M,T11,7,T11_
+T12_M21,run2,m21,m564,F,T12,8,T12_
+T34_M34,run3,m34,m564,F,T34,9,T34_
+T36_M36,run3,m36,AID,M,T36,10,T36_
