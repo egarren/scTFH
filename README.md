@@ -20,7 +20,7 @@ NB: Expected total run time is 3-5 days
 ## System requirements and software
 CellRanger	10X Genomics	v4.0.0\
 R	The Comprehensive R Archive Network	v3.6.1\
-Rstudio 	Rstudio, Inc.	v1.2.1578\
+Rstudio v1.2.1578\
 2017PWM	https://bitbucket.org/slofgren/antigen-id-paper-code/src/master/	N/A\
 GLIPH2	http://50.255.35.37:8080/	v2\
 scanpy	https://pypi.org/project/scanpy/	v1.5.1\
