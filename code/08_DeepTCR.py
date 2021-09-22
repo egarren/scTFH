@@ -7,10 +7,6 @@ import numpy as np
 import pandas as pd
 from DeepTCR.DeepTCR import DeepTCR_U
 from DeepTCR.DeepTCR import DeepTCR_SS
-os.chdir("/n/scratch3/users/e/eha8/Rsessions/20201118_scTfh.nogm/deepTCR/results")
-os.chdir("/n/scratch3/users/e/eha8/Rsessions/20201120_scTfh.2020/deepTCR/results")
-# sys.path.append('./')
-
 
 ###Unsupervised CNN on repertoires (disease-based) for clustering
 # Instantiate training object
