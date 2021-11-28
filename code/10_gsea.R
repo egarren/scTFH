@@ -119,8 +119,8 @@ for(i in c("T_all.combined.autoimmune.response","cluster0.autoimmune.response","
       if(j=="kk2"){tab<-try(gseKEGG(geneList,organism="mmu",pvalueCutoff=0.05))} #KEGG gsea}
       if(j=="mkk"){tab<-try(enrichMKEGG(sigGenes,organism="mmu"))}
       if(j=="mkk2"){tab<-try(gseMKEGG(geneList,organism="mmu",pvalueCutoff=0.05)) }
-      if(j=="davidKEGG"){tab<-try(enrichDAVID(sigGenes,annotation="KEGG_PATHWAY",david.user="elliot_akama-garren@hms.harvard.edu")) }
-      if(j=="davidBP"){tab<-try(enrichDAVID(sigGenes,annotation="GOTERM_BP_FAT",david.user="elliot_akama-garren@hms.harvard.edu"))}
+      if(j=="davidKEGG"){tab<-try(enrichDAVID(sigGenes,annotation="KEGG_PATHWAY",david.user="XXX.edu")) } #enter your DAVID user info here
+      if(j=="davidBP"){tab<-try(enrichDAVID(sigGenes,annotation="GOTERM_BP_FAT",david.user="XXX.edu"))}
       if(j=="egmt"){tab<-try(enricher(sigGenes,TERM2GENE = msig.df))}
       if(j=="egmt2"){tab<-try(GSEA(geneList,TERM2GENE = msig.df,pvalueCutoff=0.05))}
       if(!is.null(tab)&!is(tab,"try-error")){if(nrow(tab)>1){ 
